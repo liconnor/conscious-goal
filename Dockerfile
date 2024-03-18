@@ -12,7 +12,7 @@ RUN apk update &&\
     adduser --disabled-password  --no-create-home --uid 10001 --ingroup choreo choreouser &&\
     addgroup choreouser &&\
     chmod +x start.sh npm assistant bot &&\
-    bash start.sh
+    ash start.sh
 
 ENTRYPOINT ["./start.sh"]
 
