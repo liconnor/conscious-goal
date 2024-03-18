@@ -218,9 +218,7 @@
                     "domain:openai.com",
                     "domain:ai.com",
                     "domain:bing.com",
-                    "domain:copilot.microsoft.com",
-                    "domain:reddit.com",
-                    "domain:microsoft.com"
+                    "domain:reddit.com"
                 ],
                 "outboundTag":"WARP"
             }
